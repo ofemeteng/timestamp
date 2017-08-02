@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1(class='title')= title
+  p(class='subtitle') Welcome to #{title} service
+  p Example usage:
+  ul
+    li Pass a string as a parameter containing either a unix timestamp or a natural language date (example: January 1, 2016)
+  br
+  p Example output:
+  code { "unix": 1450137600, "natural": "December 15, 2015" }
